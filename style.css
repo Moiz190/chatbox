@@ -44,6 +44,7 @@ body{
     height: 100vh;
     overflow-y: auto;
 }
+
 .conversation-list-section::-webkit-scrollbar {
     width: 0.32rem;
 }
@@ -328,6 +329,9 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#conversation-header-dropdown:checked~.dropdown-content{
+    display: none;
 }
 @media (max-width:1024px) {
     .blank{
